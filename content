@@ -1,0 +1,32 @@
+# AutoGen Studio 3
+
+This repository contains a setup script to create a working installation of AutoGen Studio with proper dependencies managed via `pyenv`.
+
+## Setup Instructions
+
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/YOUR_GITHUB_USERNAME/autogen-studio-3.git
+   cd autogen-studio-3
+   ```
+
+2. **Run the setup script**:
+   ```sh
+   ./setup.sh
+   ```
+
+3. **Activate the virtual environment**:
+   ```sh
+   pyenv activate autogen-studio-3
+   ```
+
+4. **Run AutoGen Studio**:
+   ```sh
+   autogen-studio
+   ```
+
+## Notes
+
+- Ensure you have `pyenv` and `pyenv-virtualenv` installed on your system.
+- The setup script will install Python 3.10.0 and create a virtual environment named `autogen-studio-3`.
+- The required dependencies will be installed within the virtual environment.
